@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+.card{
+  height:350px;
+  width:300px;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.card img{
+  height: 150px;
+  width:150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.card h3{
+  font-size: 34px;
+  white-space: nowrap;
+}
+.card h4{
+  font-size: 30px;
+  color: crimson;
+  white-space: nowrap;
+}

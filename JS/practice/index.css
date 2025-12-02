@@ -1,0 +1,42 @@
+   html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: monospace;
+    }
+
+    /* use viewport-based sizing so it always fills screen */
+    main {
+      min-height: 100vh;           /* ensure it fills the viewport vertically */
+      width: 100%;
+      background-color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;         /* center horizontally */
+      justify-content: center;     /* center vertically */
+      gap: 20px;
+      padding: 40px 0;             /* give some vertical breathing room */
+    }
+
+    h1 {
+      font-size: 70px;
+      background-color: lightseagreen;
+      padding: 40px 50px;
+      border-radius: 10px;
+      margin: 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: crimson;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    /* correct way to "shrink" on active */
+    button:active {
+      transform: scale(0.95);
+    }
